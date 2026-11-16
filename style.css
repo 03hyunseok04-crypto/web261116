@@ -380,3 +380,24 @@ footer p {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.toolbar select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background-color: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.card.hot .badge {
+  background-color: crimson;
+  color: #fff;
+}
